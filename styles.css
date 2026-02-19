@@ -1,1 +1,58 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* NAV (left side) */
+nav {
+    width: 16.66%; /* 1/6th */
+    background-color: #D7E8D4;
+    padding: 1em;
+}
+
+/* Right section */
+.main {
+    width: 83.33%; /* remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: yellowgreen;
+    height: 20vh; /* 1/5th */
+    padding: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: yellowgreen;
+    height: 20vh; /* 1/5th */
+    padding: 1em;
+}
+
+/* Content section */
+.content {
+    display: flex;
+    width: 100%;
+}
+
+/* Article */
+article {
+    width: 75%; /* 3/4 */
+    min-height: 60vh;
+    padding: 1em;
+    background-color: #f2f2f2;
+}
+
+/* Aside */
+aside {
+    width: 25%; /* 1/4 */
+    padding: 1em;
+    background-color: #e6e3c5;
+}
